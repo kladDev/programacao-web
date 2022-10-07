@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ccc;
+}
+
+header {
+    font-family: 'Delius Unicase', 'sans-serif';
+    font-weight: 400;
+    background-image: linear-gradient(#000, #50504e);
+    padding: 45px 150px;
+}
+
+header h1 {
+    color: #f37700;
+}
+
+header h2 {
+    color: #fff;
+    font-size: 15px;
+}
+
+nav {
+    padding-left: 150px;
+    padding-block: 10px;
+    background-image: linear-gradient(to bottom, #3b3b38 55%, #000 45%);
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding-right: 25px;   
+}
+
+.paginaAtual {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.bg img {
+    width: 100%;
+}
+
+.conteudo, .projetos {
+    max-width: 500px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.conteudo h2 {
+    padding-top: 40px;
+    font-size: 16px;
+}
+
+.projetos {
+    padding-inline: 10px;
+    width: 250px;
+    background-color: #FFE153;
+    color: #f37500d2;
+    border-radius: 0 0 10px 10px;
+}
+
+.projetos h2 {
+    padding-block: 20px;
+}
+
+.projetos .sobre {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.localizacao {
+    padding-bottom: 50px;
+}
+
+main {
+    padding-left: 150px;
+    display: flex;
+    width: 80%;
+}
