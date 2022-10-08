@@ -11,7 +11,9 @@ body {
 header {
     font-family: 'Delius Unicase', 'sans-serif';
     font-weight: 400;
+
     background-image: linear-gradient(#000, #50504e);
+
     padding: 45px 150px;
 }
 
@@ -27,12 +29,14 @@ header h2 {
 nav {
     padding-left: 150px;
     padding-block: 10px;
+
     background-image: linear-gradient(to bottom, #3b3b38 55%, #000 45%);
 }
 
 nav a {
     color: #fff;
     text-decoration: none;
+
     padding-right: 25px;   
 }
 
@@ -40,10 +44,23 @@ nav a {
     width: 100%;
 }
 
-.conteudo, .projetos {
+
+.conteudo, .projetos, .titulo {
     max-width: 500px;
     width: 100%;
+
     background-color: #fff;
+}
+
+.titulo {
+    max-width: 790px;
+    width: 100%;
+
+    padding: 10px 20px 0 0;
+    margin-top: -4px;
+    margin-left: 150px;
+
+    text-align: right;
 }
 
 .conteudo h2 {
@@ -54,8 +71,10 @@ nav a {
 .projetos {
     padding-inline: 10px;
     width: 250px;
+
     background-color: #FFE153;
     color: #f37500d2;
+
     border-radius: 0 0 10px 10px;
 }
 
@@ -78,16 +97,20 @@ nav a {
 main {
     padding: 20px;
     border-radius: 0 0 5px 5px;
+
     display: flex;
     flex-wrap: wrap;
+
     background-color: #fff;
+
     width: max-content;
-    margin: auto;
+    margin-left: 150px;
 }
 
 footer {
     text-align: center;
     color: rgb(158, 154, 154);
+    
     padding-top: 10px;
     padding-bottom: 100px;
 }
