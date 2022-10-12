@@ -23,12 +23,12 @@ header h1 {
 
 header h2 {
     color: #fff;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 nav {
     padding-left: 150px;
-    padding-block: 10px;
+    padding-block: 12px;
 
     background-image: linear-gradient(to bottom, #3b3b38 55%, #000 45%);
 }
@@ -37,57 +37,54 @@ nav a {
     color: #fff;
     text-decoration: none;
 
-    padding-right: 25px;   
+    padding-right: 24px;   
 }
 
 .bg img {
     width: 100%;
 }
 
-
-.conteudo, .projetos {
-    max-width: 500px;
-    width: 100%;
-
-    background-color: #fff;
-}
-
-
 .titulo {
-    max-width: 1000px;
+    background-color: #fff;
+
+    max-width: 1050px;
     width: 100%;
 
-    padding: 10px 20px 0 0;
+    padding: 12px 24px 0 0;
     margin-top: -4px;
     margin-left: 150px;
 
     text-align: right;
 }
 
+.conteudo, .conteudo img {
+    width: 650px;
+}
+
 .conteudo h2 {
     padding-top: 40px;
-    font-size: 16px;
+    font-size: 24px;
 }
 
 .projetos {
-    padding-inline: 10px;
+    padding-inline: 12px;
     width: 250px;
 
     background-color: #FFE153;
     color: #f37500d2;
 
-    border-radius: 0 0 10px 10px;
+    border-radius: 0 0 12px 12px;
 }
 
 .projetos h2 {
-    padding-block: 20px;
+    padding-block: 24px;
 }
 
 .projetos .sobre {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    gap: 15px;
+    gap: 16px;
     flex-wrap: wrap;
 }
 
@@ -96,16 +93,19 @@ nav a {
 }
 
 main {
-    padding: 20px;
-    border-radius: 0 0 5px 5px;
+    padding: 24px;
+    border-radius: 0 0 6px 6px;
 
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 
     background-color: #fff;
 
-    width: max-content;
     margin-left: 150px;
+
+    max-width: 1050px;
+    width: 100%;
 }
 
 footer {
