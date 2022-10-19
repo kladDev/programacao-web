@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #eee url(../Projeto/images/bg-topo.jpg) repeat-x;
+
+    font-size: 12px;
+    font-family: 'Arial', 'sans-serif';
+    text-align: center;
+}
+
+#topo {
+    height: 127px;
+    width: 752px;
+    margin: 0 auto;
+
+    background-image: url(../Projeto/images/bg-topo.jpg);
+}
+
+#topo figcaption {
+    display: none;
+}
+
+#topo figure img {
+    height: 34px;
+    width: 238px;
+    margin-top: 40px;
+
+    float: left;
+}
+
+#menu {
+    height: 23px;
+    width: 752px;
+    padding-top: 10px;
+
+    margin: 0 auto;
+    color: #fff;
+    text-align: left;
+}
+
+#imagem {
+    height: 192px;
+
+    background-image: url(../Projeto/images/imagem-bg.jpg);
+}
+
+#conteudo {
+    width: 752px;
+
+    background-color: #fff;
+    border-radius: 0 0 10px 10px;
+    margin: 0 auto;
+}
+
+#conteudo .clear {
+    clear: both;
+}
+
+#navlink {
+    text-align: right;
+    font: 10px "Arial", "Tahoma";
+    color: #666;
+
+    padding: 10px 17px 0 0;
+}
+
+#bloco-esquerdo {
+    width: 470px;
+    
+    float: left;
+    text-align: left;
+    
+    padding: 5px;
+    margin-top: 10px;
+}
+
+#bloco-esquerdo img {
+    margin-bottom: 10px;
+}
+
+#bloco-esquerdo p {
+    margin-bottom: 10px;
+
+    text-align: justify;
+}
+
+#bloco-esquerdo h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+
+    color: #f27300;
+    text-transform: uppercase;
+}
+
+#bloco-direito {
+    width: 258px;
+    height: 356px;
+    margin: 14px 5px 0 0;
+    border-radius: 0  0 10px 10px;
+
+    background-color: #ffe153;
+    
+    display: inline;
+    float: right;
+}
+
+#bloco-direito h1 {
+    font: 19px "Trebuchet MS", "Arial" bold;
+    font-style: italic;
+    text-align: left;
+    color: #f27230;
+    margin: 5px 0 0 5px;
+}
+
+#bloco-direito .imgdireita {
+    margin: 3px;
+    border: 1px solid #f27300;
+    padding: 1px;
+
+    background-color: #fff;
+}
+
+#bloco-direito p {
+    text-align: left;
+    color: #f27300;
+
+    font-size: 11px;
+    margin: 0 0 10px 8px;
+}
+
+#bloco-direito h2 {
+    background-color: #f27230;
+    font: 11px "Arial", "Tahoma";
+    text-align: left;
+    color: #fff;
+
+    width: 100px;
+    padding: 1px;
+    margin: 0 0 3px 5px;
+}
+
+#rodape {
+    width: 752px;
+    height: 30px;
+    padding-left: 4px;
+    margin: 0 auto;
+
+    font: 14px 'Trebuchet MS', 'Arial';
+    font-weight: bold;
+    font-style: italic;
+    text-align: left;
+    color: #999;
+}
