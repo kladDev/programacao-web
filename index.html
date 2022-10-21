@@ -2,99 +2,177 @@
 <html lang="pt-br">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>WebSite</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante</title>
 
-	<link 
-	rel="stylesheet" 
-	href="style.css">
+    <link rel="stylesheet" href="style.css">
 
-	<link 
-	rel="preconnect" 
-	href="https://fonts.googleapis.com">
-	<link 
-	rel="preconnect" 
-	href="https://fonts.gstatic.com" 
-	crossorigin>
-	<link 
-	href="https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@400;700&display=swap" 
-	rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
-	<body>
+<body>
+    <main>
 
-		<header>
-			<h1>Curso Tableless</h1>
-			<h2>Criando um site nos padrões da web</h2>
-		</header>
+        <header>
 
-		<nav>
-			<a href="#">Home</a>
-			<a href="#">Serviços</a>
-			<a href="#">Porfólio</a>
-			<a href="#">Expediente</a>
-			<a href="#">Fale conosco</a>
-		</nav>
+            <div class="logos">
 
-		<section class="bg">
-			<img 
-			src="./assets/imagem-bg.jpg" 
-			alt="plano de fundo com girassóis">
-		</section>
+                <img src="assets/pan.svg" alt="Icon de uma panela">
+                <img src="assets/logo.svg" alt="Logomarca">
 
-		<h2 class="titulo">Home</h2>
+            </div>
 
-		<main>
+            <nav>
 
-			<section class="conteudo">
-				<img 
-				src="./assets/bloco1.jpg" 
-				alt="Plano de divulgação">
-				<h2>Curso de Análise e Desenvolvimento de Sistemas</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis nulla nam vero, voluptatibus eius exqui, cumque doloremque sit minima eos laudantium, nihil aspernatur harum nesciunt sunt veritatis veniam incidunt. Cumque cum dolorem excepturi repellat.</p>
-			</section>
+                <ul>
 
-			<section class="projetos">
+                    <li>
+                        <a href="#">Início</a>
+                    </li>
+                    <li>
+                        <a href="#cardapio">Cardápio</a>
+                    </li>
+                    <li>
+                        <a href="#comentarios">Depoimentos</a>
+                    </li>
+                    <li>
+                        <a href="#contato">Contato</a>
+                    </li>
 
-				<h2>Projetos recentes</h2>
+                </ul>
 
-				<div class="sobre">
-					<img 
-					src="./assets/img1.gif" 
-					alt="Imagem do projeto 1">
-					<img 
-					src="./assets/img2.gif" 
-					alt="Imagem do projeto 2">
-					<img 
-					src="./assets/img3.gif" 
-					alt="Imagem do projeto 3">
-					<img 
-					src="./assets/img4.gif" 
-					alt="Imagem do projeto 4">
-					<img 
-					src="./assets/img5.gif" 
-					alt="Imagem do projeto 5">
-					<img 
-					src="./assets/img6.gif" 
-					alt="Imagem do projeto 6">
-				</div>
+            </nav>
 
-				<div class="localizacao">
-					<h2>Onde estamos</h2>
-					<p>Rua Aarão Reis, 1000 - Centro, Caxias - Maranhão</p>
-					<p>(99) 3422 - 6800 / (99) 3422-0068</p>
-				</div>
+        </header>
 
-			</section>
+        <aside>
 
-		</main>
+            <h1>Gleba Buriti do Paraíso</h1>
+            <h2>MA-349, KM 02</h2>
+            <button>Conheça nosso cardápio</button>
 
-		<footer>
-			<p>Copyright 2013 - IHCADS - Todos os direitos reservados</p>
-		</footer>
-		
-	</body>
+        </aside>
+
+    </main>
+
+    <div class="divisao"></div>
+
+    <section id="cardapio">
+        <div class="logos">
+            <img src="./assets/knife.svg" alt="Icon de knife">
+            <h2>Cardápio</h2>
+        </div>
+        <figure>
+            <img src="./assets/post-1.jpg" alt="Imagem de comida">
+            <img src="./assets/post-2.jpg" alt="Imagem de comida">
+            <img src="./assets/post-3.jpg" alt="Imagem de comida">
+            <img src="./assets/post-4.jpg" alt="Imagem de comida">
+            <img src="./assets/post-5.jpg" alt="Imagem de comida">
+            <img src="./assets/post-6.jpg" alt="Imagem de comida">
+        </figure>
+    </section>
+
+    <div class="divisao"></div>
+
+    <section id="comentarios">
+
+        <div class="logos">
+
+            <img src="./assets/comments.svg" alt="Icon de comentários">
+            <h2>Depoimentos</h2>
+
+        </div>
+
+        <div class="cards">
+
+            <div class="card">
+
+                <div class="perfil">
+
+                    <img src="./assets/people-1.jpg" alt="Imagem de uma pessoa">
+                    <h2>João Pedro</h2>
+
+                </div>
+
+                <p>
+                    "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus dicta fugit illum quidem, in ea
+                    eius molestias porro expedita quasi?"
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <div class="perfil">
+
+                    <img src="./assets/people-2.jpg" alt="Imagem de uma pessoa">
+                    <h2>Kallliny Santos</h2>
+
+                </div>
+
+                <p>
+                    "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus dicta fugit illum quidem, in ea
+                    eius molestias porro expedita quasi?"
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <div class="perfil">
+
+                    <img src="./assets/people-3.jpg" alt="Imagem de uma pessoa">
+                    <h2>Kelly Shimida</h2>
+
+                </div>
+
+                <p>
+                    "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus dicta fugit illum quidem, in ea
+                    eius molestias porro expedita quasi?"
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <div class="divisao"></div>
+
+    <footer id="contato">
+
+        <div class="logos">
+
+            <img src="./assets/zap.svg" alt="Icon de contato">
+            <h2>Contato</h2>
+
+        </div>
+
+        <ul>
+            <li>
+                <img src="./assets/instagram.svg" alt="Icon de instagram">
+                <a href="#">restaurantebomsabor</a>
+            </li>
+            <li>
+                <img src="./assets/phone.svg" alt="Icon de telefone">
+                <a href="#">(99) 99234-1243</a>
+            </li>
+            <li>
+                <img src="./assets/email.svg" alt="Icon de email">
+                <a href="#">restaurantebomsabor@bom.com.br</a>
+            </li>
+            <li>
+                <img src="./assets/location.svg" alt="Icon de localização">
+                <a href="#">Povoado Lamego, Zona Urbana, Caxias - MA</a>
+            </li>
+        </ul>
+
+        <button>ENTRAR EM CONTATO</button>
+    </footer>
+
+</body>
 
 </html>
