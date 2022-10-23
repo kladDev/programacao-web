@@ -1,11 +1,9 @@
 const nav = document.querySelector("nav")
-const iconFechar = document.querySelector(".close")
-const iconMenu = document.querySelector(".menu")
 
-iconMenu.addEventListener("click", () => {
+function openMenu() {
     nav.classList.add("menu-mobile")
-})
+}
 
-iconFechar.addEventListener("click", () => {
+function closeMenu () {
     nav.classList.remove("menu-mobile")
-})
+}
