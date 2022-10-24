@@ -4,6 +4,6 @@ function openMenu() {
     nav.classList.add("menu-mobile")
 }
 
-function closeMenu () {
+function closeMenu() {
     nav.classList.remove("menu-mobile")
 }
