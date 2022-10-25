@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -257,8 +258,6 @@ aside h2 {
 
         transform: translateX(-100%);
         background-color: #669921;
-
-        transition: transform .3s;
     }
 
     header nav a {
@@ -275,11 +274,12 @@ aside h2 {
 
     header .menu-mobile {
         transform: translateX(0);
+        transition: transform .3s;
     }
 
     header .menu-mobile .close {
         align-self: flex-end;
-        margin-right: 36px;
+        margin: 64px 20% 36px 0;
     }
 
     header .menu-mobile ul {
